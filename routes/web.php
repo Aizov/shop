@@ -18,7 +18,4 @@ Route::get('product/{id}', 'IndexController@product')->name('productShow');
 
 Route::get('ads', 'IndexController@ad')->name('adShow');
 Route::get('apanel', ['uses'=>'ApanelController@show',])->name('apanelShow');
-Route::get('apanel', ['uses'=>'ApanelController@show',])->name('apanelShow');
-Route::get('apanel', ['uses'=>'ApanelController@show',])->name('apanelShow');
-
 Auth::routes();
